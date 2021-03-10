@@ -1,0 +1,64 @@
+{
+    "Contracts": {
+        "Comp": "0x3dEB1119c295558c732a3618F04518b9812EC87A",
+        "Unitroller": "0xC001c415b7E78eA4A3edf165D8f44b70391F8c3c",
+        "PriceOracle": "0x141D89bA052e9fc0F3D743f76c288e8476Db3798",
+        "Comptroller": "0xC001c415b7E78eA4A3edf165D8f44b70391F8c3c",
+        "WhitePaperInterestRateModel_2_30": "0xf796551b51CB6a1aF5270A8056d8479e8864c406"
+    },
+    "Blocks": {
+        "Comp": 5527757,
+        "Unitroller": 5527884,
+        "PriceOracle": 5527886,
+        "Comptroller": 5527888,
+        "WhitePaperInterestRateModel_2_30": 5527901
+    },
+    "PriceOracle": {
+        "description": "Price oracle by OpenDAO",
+        "address": "0x141D89bA052e9fc0F3D743f76c288e8476Db3798"
+    },
+    "Unitroller": {
+        "description": "Unitroller",
+        "address": "0xC001c415b7E78eA4A3edf165D8f44b70391F8c3c"
+    },
+    "Comptroller": {
+        "Comptroller": {
+            "address": "0xce9c5F63A9bCF54a2Bb7DDDd911071827b20c301",
+            "contract": "Comptroller",
+            "description": "Standard Comptroller Impl"
+        }
+    },
+    "Comp": {
+        "contract": "Comp",
+        "symbol": "COMP",
+        "name": "Compound Governance Token",
+        "decimals": 18,
+        "address": "0x3dEB1119c295558c732a3618F04518b9812EC87A"
+    },
+    "Constructors": {
+        "Comp": "0x000000000000000000000000cd84aac5928e51e74c9d11d782a8b77e0c51b013",
+        "Unitroller": "0x",
+        "PriceOracle": "0x000000000000000000000000c001c415b7e78ea4a3edf165d8f44b70391f8c3c",
+        "Comptroller": "0x",
+        "WhitePaperInterestRateModel_2_30": "0x00000000000000000000000000000000000000000000000000470de4df8200000000000000000000000000000000000000000000000000000429d069189e0000"
+    },
+    "Tokens": {
+        "COMP": {
+            "contract": "Comp",
+            "symbol": "COMP",
+            "name": "Compound Governance Token",
+            "decimals": 18,
+            "address": "0x3dEB1119c295558c732a3618F04518b9812EC87A"
+        }
+    },
+    "InterestRateModel": {
+        "WhitePaperInterestRateModel_2_30": {
+            "name": "WhitePaperInterestRateModel_2_30",
+            "contract": "WhitePaperInterestRateModel",
+            "description": "WhitePaper baseRate=20000000000000000 multiplier=300000000000000000",
+            "base": "20000000000000000",
+            "slope": "300000000000000000",
+            "address": "0xf796551b51CB6a1aF5270A8056d8479e8864c406"
+        }
+    }
+}
