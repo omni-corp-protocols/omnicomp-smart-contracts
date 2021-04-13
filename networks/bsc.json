@@ -6,7 +6,8 @@
         "Comptroller": "0xC001c415b7E78eA4A3edf165D8f44b70391F8c3c",
         "WhitePaperInterestRateModel_2_30": "0xf796551b51CB6a1aF5270A8056d8479e8864c406",
         "WhitePaperInterestRateModel_0_5__1": "0xbC77cadF88e2e4E2111d90e0977aB183bD902467",
-        "WhitePaperInterestRateModel_05_1": "0xA1Dff46902f2840f6aD54Df6Ed33d3E7C938589e"
+        "WhitePaperInterestRateModel_05_1": "0xA1Dff46902f2840f6aD54Df6Ed33d3E7C938589e",
+        "WhitePaperInterestRateModel_005_05": "0x9299cB6f89754978861AF279cFb82Df9C267c790"
     },
     "Blocks": {
         "Comp": 5527757,
@@ -15,7 +16,8 @@
         "Comptroller": 5527888,
         "WhitePaperInterestRateModel_2_30": 5527901,
         "WhitePaperInterestRateModel_0_5__1": 6094497,
-        "WhitePaperInterestRateModel_05_1": 6094998
+        "WhitePaperInterestRateModel_05_1": 6094998,
+        "WhitePaperInterestRateModel_005_05": 6496571
     },
     "PriceOracle": {
         "description": "Price oracle by OpenDAO",
@@ -46,7 +48,8 @@
         "Comptroller": "0x",
         "WhitePaperInterestRateModel_2_30": "0x00000000000000000000000000000000000000000000000000470de4df8200000000000000000000000000000000000000000000000000000429d069189e0000",
         "WhitePaperInterestRateModel_0_5__1": "0x0000000000000000000000000000000000000000000000000011c37937e08000000000000000000000000000000000000000000000000000002386f26fc10000",
-        "WhitePaperInterestRateModel_05_1": "0x0000000000000000000000000000000000000000000000000011c37937e08000000000000000000000000000000000000000000000000000002386f26fc10000"
+        "WhitePaperInterestRateModel_05_1": "0x0000000000000000000000000000000000000000000000000011c37937e08000000000000000000000000000000000000000000000000000002386f26fc10000",
+        "WhitePaperInterestRateModel_005_05": "0x0000000000000000000000000000000000000000000000000011c37937e0800000000000000000000000000000000000000000000000000000b1a2bc2ec50000"
     },
     "Tokens": {
         "COMP": {
@@ -81,6 +84,14 @@
             "base": "5000000000000000",
             "slope": "10000000000000000",
             "address": "0xA1Dff46902f2840f6aD54Df6Ed33d3E7C938589e"
+        },
+        "WhitePaperInterestRateModel_005_05": {
+            "name": "WhitePaperInterestRateModel_005_05",
+            "contract": "WhitePaperInterestRateModel",
+            "description": "WhitePaper baseRate=5000000000000000 multiplier=50000000000000000",
+            "base": "5000000000000000",
+            "slope": "50000000000000000",
+            "address": "0x9299cB6f89754978861AF279cFb82Df9C267c790"
         }
     }
 }
