@@ -76,7 +76,7 @@
         "WhitePaperInterestRateModel_05_19": 7430656
     },
     "PriceOracle": {
-        "description": "Price oracle by OpenDAO",
+        "description": "Price oracle",
         "address": "0xcf65D38255E243dFE1dAe63204eeBc9c0b1D6529"
     },
     "Unitroller": {

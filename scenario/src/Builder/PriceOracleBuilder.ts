@@ -102,7 +102,7 @@ export async function buildPriceOracle(world: World, from: string, event: Event)
     new Fetcher<{unitroller: AddressV}, PriceOracleData>(`
         #### PriceOracleOTL
 
-        * "PriceOracleOTL" - Price oracle by OpenDAO
+        * "PriceOracleOTL" - Price oracle
           * E.g. "PriceOracle Deploy PriceOracleOTL"
       `,
       "PriceOracleOTL",
@@ -112,7 +112,7 @@ export async function buildPriceOracle(world: World, from: string, event: Event)
       async (world, {unitroller}) => {
         return {
           invokation: await PriceOracleOTL.deploy<PriceOracle>(world, from, [unitroller.val]),
-          description: "Price oracle by OpenDAO"
+          description: "Price oracle"
         };
       }
     )
